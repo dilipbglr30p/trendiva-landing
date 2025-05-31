@@ -3,7 +3,7 @@ import { ShoppingCart, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 
 
 const Footer: React.FC = () => {
   const year = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container">
@@ -42,10 +42,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Legal</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-green-500 transition">Terms of Service</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-green-500 transition">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-green-500 transition">Refund Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-green-500 transition">Cookie Policy</a></li>
+              <li><a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Terms of Service</a></li>
+              <li><a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Privacy Policy</a></li>
+              <li><a href="/refund" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Refund Policy</a></li>
+              <li><a href="/contact" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Contact</a></li>
             </ul>
           </div>
 
@@ -73,9 +73,9 @@ const Footer: React.FC = () => {
             &copy; {year} GroupBuy. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-500 hover:text-green-500 text-sm transition">Terms</a>
-            <a href="#" className="text-gray-500 hover:text-green-500 text-sm transition">Privacy</a>
-            <a href="#" className="text-gray-500 hover:text-green-500 text-sm transition">Cookies</a>
+            <a href="/terms" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Terms</a>
+            <a href="/privacy" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Privacy</a>
+            <a href="/refund" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Cookies</a>
           </div>
         </div>
       </div>
