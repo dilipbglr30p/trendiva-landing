@@ -16,7 +16,6 @@
       "source": "/contact",
       "destination": "/contact.html"
     },
-    ,
     {
       "source": "/data-deletion",
       "destination": "/data-deletion.html"
