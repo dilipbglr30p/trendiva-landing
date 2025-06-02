@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
               <li><a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Terms of Service</a></li>
               <li><a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Privacy Policy</a></li>
               <li><a href="/refund" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Refund Policy</a></li>
-              <li><a href="/data-deletion" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Data Deletion Instructions</a></li>
+              <li><a href="/data-deletion.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Data Deletion Instructions</a></li>
               <li><a href="/contact" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition">Contact</a></li>
             </ul>
           </div>
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
             <a href="/terms" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Terms</a>
             <a href="/privacy" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Privacy</a>
             <a href="/refund" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Cookies</a>
-            <a href="/data-deletion" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Data Deletion</a>
+            <a href="/data-deletion.html" className="text-gray-500 hover:text-green-500 text-sm transition" target="_blank" rel="noopener noreferrer">Data Deletion</a>
           </div>
         </div>
       </div>
