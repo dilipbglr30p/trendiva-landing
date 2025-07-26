@@ -10,8 +10,8 @@ interface QRCodeProps {
 const QRCode: React.FC<QRCodeProps> = ({ value, size = 200 }) => {
   // In a real implementation, this would generate a proper QR code
   // For now, we're using a placeholder image from a QR code generator service
-  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(value)}&size=${size}x${size}&format=svg`;
-  
+  //const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(value)}&size=${size}x${size}&format=svg`;
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://wa.me/14155238886?text=join%20why-upon`;
   return (
     <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-2 bg-white">
       <img 
